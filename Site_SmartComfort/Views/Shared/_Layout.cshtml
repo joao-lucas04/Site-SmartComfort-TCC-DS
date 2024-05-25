@@ -33,17 +33,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a asp-area="" asp-controller="Home" asp-action="Privacy">
-                                <img class="icone" src="~/img/login.png" />
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a asp-area="" asp-controller="Home" asp-action="Privacy">
-                                <img class="icone" src="~/img/carrinho.png" />
-                            </a>
-                        </li>
                     </ul>
+
+                    <a asp-area="" asp-controller="Login" asp-action="Login">
+                            <img class="icone" src="~/img/login.png" />
+                    </a>
+                   
+                    <a asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <img class="icone" src="~/img/carrinho.png" />
+                    </a>
+        
                 </div>
             </div>
         </nav>

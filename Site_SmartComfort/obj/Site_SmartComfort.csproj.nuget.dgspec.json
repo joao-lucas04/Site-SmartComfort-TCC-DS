@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JEAN\\Desktop\\Site_SmartComfort\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
+    "C:\\Users\\JEAN\\Desktop\\opa\\Site_SmartComfort\\Site_SmartComfort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JEAN\\Desktop\\Site_SmartComfort\\Site_SmartComfort\\Site_SmartComfort.csproj": {
+    "C:\\Users\\JEAN\\Desktop\\opa\\Site_SmartComfort\\Site_SmartComfort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\Site_SmartComfort\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\opa\\Site_SmartComfort\\Site_SmartComfort.csproj",
         "projectName": "Site_SmartComfort",
-        "projectPath": "C:\\Users\\JEAN\\Desktop\\Site_SmartComfort\\Site_SmartComfort\\Site_SmartComfort.csproj",
+        "projectPath": "C:\\Users\\JEAN\\Desktop\\opa\\Site_SmartComfort\\Site_SmartComfort.csproj",
         "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JEAN\\Desktop\\Site_SmartComfort\\Site_SmartComfort\\obj\\",
+        "outputPath": "C:\\Users\\JEAN\\Desktop\\opa\\Site_SmartComfort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
