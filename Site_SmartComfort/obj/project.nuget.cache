@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cCHwlq5inSpZLgMh4/K/NSBOczHRccVkX0AOmw1VNw4lL03JUYUsuhPLc3rulp2kdsDx4PW1DZa4PdX694sxkw==",
+  "dgSpecHash": "pVpUemmQJ7Hc+ljEK+aYe+28GerCf/qF9a54zCt9bkxi1gKKhfK6wjHUb0xxm0maQF81O+pXl94EPgtKlgDDUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\3jd\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\3jd\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\3jd\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\3jd\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
