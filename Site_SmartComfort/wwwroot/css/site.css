@@ -39,4 +39,6 @@ body {
 
 #cabecalho {
     background-color: #9DC6EA;
+    opacity: 90%;
+    z-index: 1;
 }

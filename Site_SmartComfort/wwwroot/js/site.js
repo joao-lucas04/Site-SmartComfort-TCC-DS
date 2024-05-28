@@ -1,4 +1,33 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿let imgElement = document.getElementById('carrosel');
+let currentIndex = 1;
 
-// Write your JavaScript code.
+const img1 = "/img/carrosel1.jpeg";
+const img2 = "/img/carrosel2.jpg";
+const img3 = "/img/carrosel3.jpeg";
+
+function troca1() {
+    imgElement.src = img1;
+    currentIndex = 1;
+}
+
+function troca2() {
+    imgElement.src = img2;
+    currentIndex = 2;
+}
+
+function troca3() {
+    imgElement.src = img3;
+    currentIndex = 3;
+}
+
+function autoTroca() {
+    if (currentIndex === 1) {
+        troca2();
+    } else if (currentIndex === 2) {
+        troca3();
+    } else if (currentIndex === 3) {
+        troca1();
+    }
+}
+
+setInterval(autoTroca, 5000);

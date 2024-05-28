@@ -1,6 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-<link rel="stylesheet" href="~/css/style.css"></link>
+<link rel="stylesheet" href="~/css/style.css">
 
-<img src="~/img/carrosel1.jpeg"/>
+<img id="carrosel" src="~/img/carrosel1.jpeg" />
+<div class="container_btn_carrosel">
+    <button class="btn_carrosel" onclick="troca1()"></button>
+    <button class="btn_carrosel" onclick="troca2()"></button>
+    <button class="btn_carrosel" onclick="troca3()"></button>
+</div>

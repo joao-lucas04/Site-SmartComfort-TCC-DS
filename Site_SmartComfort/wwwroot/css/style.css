@@ -3,6 +3,40 @@
     margin: 0;
 }
 
-body{
-    background-color: #F1F1F1;
+/*imagem do carrosel na tela*/
+#carrosel { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
 }
+
+/*botoes do carrosel*/
+.container_btn_carrosel {
+    position: absolute;
+    left: 51%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+}
+
+.btn_carrosel {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 1vw;
+    z-index: 1;
+}
+    .btn_carrosel:hover,
+    .btn_carrosel.active {
+        background-color: #184DAB;
+    }
+
+
+
