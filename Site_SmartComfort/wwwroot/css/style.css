@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    background-color: #F1F1F1;
+}
+
 /*imagem do carrosel na tela*/
 #carrosel { 
     position: absolute;
@@ -38,5 +42,68 @@
         background-color: #184DAB;
     }
 
+/*tela de login*/
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #184DAB; /* Title color */
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #184DAB; /* Button background color */
+    border: none;
+    color: #ffffff; /* Button text color */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #143c82; /* Darker shade for hover effect */
+}
+
+p {
+    margin-top: 15px; /* Paragraph text color */
+}
+
+.signup-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
 
 
