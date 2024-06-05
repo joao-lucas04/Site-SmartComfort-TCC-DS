@@ -1,6 +1,25 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Favoritos";
 }
-<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/favoritos.css">
+<body>
+    <div id="container_fav" class="align-content-center">
+        <img src="~/img/camera.png"/>
+        <form id="form-fav">
+            <div>
+                <label class="txt_produto">Câmera Speed Dome</label>
+                <img id="img_corazao" src="~/img/corazao.png.jpeg" alt="Alternate Text" />
+            </div>
+            <div>
+                <label id="preco_produto">R$115,59</label>
+            </div>
+            <div>
+                <input type="button" value="Comprar" />
+            </div>
+            <div>
+                <input type="button" value="Adicionar ao Carrinho" />
+            </div>
+        </form>
+    </div>
+</body>
 
-<p>OI</p>
