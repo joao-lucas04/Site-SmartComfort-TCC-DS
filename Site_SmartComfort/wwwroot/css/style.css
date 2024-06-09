@@ -38,7 +38,7 @@ body{
     z-index: 1;
 }
     .btn_carrosel:hover,
-    .btn_carrosel.active {
+    .btn_carrosel.ativo {
         background-color: #184DAB;
     }
 

@@ -18,7 +18,7 @@ namespace Site_SmartComfort.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Produto()
         {
             return View();
         }
