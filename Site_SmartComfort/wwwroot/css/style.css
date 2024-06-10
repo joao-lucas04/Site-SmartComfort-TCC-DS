@@ -5,6 +5,7 @@
 
 body{
     background-color: #F1F1F1;
+    
 }
 
 /*imagem do carrosel na tela*/
@@ -105,5 +106,4 @@ p {
 .signup-link:hover {
     text-decoration: underline;
 }
-
 

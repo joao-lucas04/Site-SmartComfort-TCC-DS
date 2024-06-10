@@ -17,14 +17,16 @@
     padding: 100px, 0;
     border: none;
     border-radius: 10px;
+    align-items: center;
+    padding-bottom: 1vw;
 }
 
 #form-fav{
     border: 1px solid #333333;
     border-radius: 10px;
-    height: 27vw;
     margin-top: 1vw;
     width: 24%;
+    height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -84,10 +86,11 @@
     word-wrap: break-word;
 }
 
-#img_corazao {
-    margin-top: -14vw;
-    cursor: pointer;
+.rodape {
+    background-color: #F1F1F1;
 }
 
-
-
+#head_produto{
+    align-items: center;
+    
+}
