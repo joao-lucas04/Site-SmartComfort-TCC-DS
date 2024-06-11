@@ -108,6 +108,8 @@ p {
 }
 
 
+
+
 /*Pagina IndexProdutos:*/
 .produtos1 {
     display: flex;
@@ -147,8 +149,6 @@ p {
     margin-top: 0.5vw;
     font-size: 14px;
 }
-
-
 
 .produtos2 {
     display: flex;

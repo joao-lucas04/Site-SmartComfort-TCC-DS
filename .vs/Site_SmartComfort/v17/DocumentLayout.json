@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\3jd\\Desktop\\asp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\wwwroot\\css\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\sobre.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\home\\sobrenos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\wwwroot\\css\\produto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\produto.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\views\\produto\\produto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\produto\\produto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\views\\favoritos\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\views\\favoritos\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\wwwroot\\css\\favoritos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\favoritos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|c:\\users\\3jd\\desktop\\asp\\site_smartcomfort\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CAD58E66-93BB-45A0-9F63-0F14F78EA528}|Site_SmartComfort\\Site_SmartComfort.csproj|solutionrelative:site_smartcomfort\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -18,33 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Site_SmartComfort\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:13:01.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SobreNos.cshtml",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Home\\SobreNos.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Home\\SobreNos.cshtml",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Home\\SobreNos.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Home\\SobreNos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T18:12:43.108Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "sobre.css",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\sobre.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\sobre.css",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\sobre.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\sobre.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-11T18:11:48.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "produto.css",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\produto.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-11T17:36:42.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Produto.cshtml",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Produto\\Produto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T17:46:06.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T17:27:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Favoritos.cshtml",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Favoritos\\Favoritos.cshtml",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Favoritos\\Favoritos.cshtml",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Favoritos\\Favoritos.cshtml",
+              "RelativeToolTip": "Site_SmartComfort\\Views\\Favoritos\\Favoritos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T17:18:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "favoritos.css",
+              "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+              "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+              "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+              "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\favoritos.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-11T17:18:32.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "Site_SmartComfort\\wwwroot\\css\\style.css",
               "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\wwwroot\\css\\style.css",
               "RelativeToolTip": "Site_SmartComfort\\wwwroot\\css\\style.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJ8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-10T18:04:55.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:04:55.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Site_SmartComfort\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Site_SmartComfort\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T17:51:31.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:51:31.14Z"
             }
           ]
         }
