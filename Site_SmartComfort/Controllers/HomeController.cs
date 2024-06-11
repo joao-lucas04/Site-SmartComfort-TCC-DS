@@ -18,11 +18,6 @@ namespace Site_SmartComfort.Controllers
             return View();
         }
 
-        public IActionResult Produto()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

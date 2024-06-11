@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\3jd\\.nuget\\packages\\": {}
+    "C:\\Users\\JEAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "projectUniqueName": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
       "projectName": "Site_SmartComfort",
-      "projectPath": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
-      "packagesPath": "C:\\Users\\3jd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\3jd\\Desktop\\asp\\Site_SmartComfort\\obj\\",
+      "projectPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\Site_SmartComfort.csproj",
+      "packagesPath": "C:\\Users\\JEAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JEAN\\Desktop\\asp\\Site_SmartComfort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\3jd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JEAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
