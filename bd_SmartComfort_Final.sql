@@ -7,14 +7,14 @@ CREATE TABLE tbPJ (
 Cnpj numeric(14) PRIMARY KEY,
 RazaoSocial varchar(250) not null,
 NomeResponsavel varchar(200) not null,
-IdCli int
+IdUsu int
 );
 
 CREATE TABLE tbPF (
 Cpf numeric(11) PRIMARY KEY,
 NomeCompleto varchar(200) not null,
 DataNasc date not null,
-IdCli int
+IdUsu int
 );
 
 CREATE TABLE tbEndereco (
@@ -29,12 +29,12 @@ IdCid int
 );
 
 CREATE TABLE tbUsuario (
-IdCli int PRIMARY KEY auto_increment,
-EmailCli varchar(100) not null unique,
-SenhaCli varchar(30) not null,
-TelefoneCli1 numeric(11) not null,
-TelefoneCli2 numeric(11),
-DataCadCli date not null,
+IdUsu int PRIMARY KEY auto_increment,
+EmailUsu varchar(100) not null unique,
+SenhaUsu varchar(30) not null,
+TelefoneUsu1 numeric(11) not null,
+TelefoneUsu2 numeric(11),
+DataCadUsu date not null,
 IdEnd int,
 FOREIGN KEY(IdEnd) REFERENCES tbEndereco (IdEnd)
 );
@@ -58,11 +58,11 @@ CREATE TABLE tbPedido (
 IdPed int PRIMARY KEY auto_increment,
 DataPed date not null,
 TotalPed decimal(10,2) not null,
-IdCli int,
+IdUsu int,
 NumNF int,
 IdPag int,
 IdEnd int,
-FOREIGN KEY(IdCli) REFERENCES tbUsuario (IdCli),
+FOREIGN KEY(IdUsu) REFERENCES tbUsuario (IdUsu),
 FOREIGN KEY(IdEnd) REFERENCES tbEndereco (IdEnd)
 );
 
@@ -91,8 +91,8 @@ FOREIGN KEY(IdPed) REFERENCES tbPedido (IdPed)
 CREATE TABLE tbFavoritos (
 IdFav int PRIMARY KEY auto_increment,
 CodBar numeric(13) ,
-IdCli int,
-FOREIGN KEY(IdCli) REFERENCES tbUsuario (IdCli)
+IdUsu int,
+FOREIGN KEY(IdUsu) REFERENCES tbUsuario (IdUsu)
 );
 
 CREATE TABLE tbProdutoAutomacao (
@@ -133,8 +133,8 @@ NomeFunc varchar(200) not null,
 SenhaFunc varchar(50) not null,
 CargoFunc varchar(50) not null
 );
-ALTER TABLE tbPJ ADD FOREIGN KEY(IdCli) REFERENCES tbUsuario (IdCli);
-ALTER TABLE tbPF ADD FOREIGN KEY(IdCli) REFERENCES tbUsuario (IdCli);
+ALTER TABLE tbPJ ADD FOREIGN KEY(IdUsu) REFERENCES tbUsuario (IdUsu);
+ALTER TABLE tbPF ADD FOREIGN KEY(IdUsu) REFERENCES tbUsuario (IdUsu);
 ALTER TABLE tbEndereco ADD FOREIGN KEY(IdBai) REFERENCES tbBairro (IdBai);
 ALTER TABLE tbEndereco ADD FOREIGN KEY(IdEst) REFERENCES tbEstado (IdEst);
 ALTER TABLE tbEndereco ADD FOREIGN KEY(IdCid) REFERENCES tbCidade (IdCid);
@@ -166,18 +166,18 @@ INSERT INTO tbEndereco (cepEnd, numeroEnd, LogradouroEnd, ComplementoEnd, IdBai,
 VALUES (87654321, 456, 'Avenida Brasil', '', 2, 2, 2);
 
 -- Inserindo usuários
-INSERT INTO tbUsuario (EmailCli, SenhaCli, TelefoneCli1, TelefoneCli2, DataCadCli, IdEnd) 
+INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, DataCadUsu, IdEnd) 
 VALUES ('user1@example.com', 'senha123', 11987654321, NULL, '2024-09-10', 1);
 
-INSERT INTO tbUsuario (EmailCli, SenhaCli, TelefoneCli1, TelefoneCli2, DataCadCli, IdEnd) 
+INSERT INTO tbUsuario (EmailUsu, SenhaUsu, TelefoneUsu1, TelefoneUsu2, DataCadUsu, IdEnd) 
 VALUES ('user2@example.com', 'senha456', 21987654321, 21912345678, '2024-09-11', 2);
 
 -- Inserindo clientes pessoa jurídica (PJ)
-INSERT INTO tbPJ (Cnpj, RazaoSocial, NomeResponsavel, IdCli) 
+INSERT INTO tbPJ (Cnpj, RazaoSocial, NomeResponsavel, IdUsu) 
 VALUES (12345678000199, 'Empresa XYZ Ltda', 'João Silva', 1);
 
 -- Inserindo clientes pessoa física (PF)
-INSERT INTO tbPF (Cpf, NomeCompleto, DataNasc, IdCli) 
+INSERT INTO tbPF (Cpf, NomeCompleto, DataNasc, IdUsu) 
 VALUES (12345678901, 'Maria Oliveira', '1990-05-15', 2);
 
 -- Inserindo funcionários
@@ -220,10 +220,10 @@ INSERT INTO tbNotaFiscal (ChaveAcessoNF, DataNF, ValorNF)
 VALUES (3456, '2024-09-12', 299.90);
 
 -- Inserindo pedidos
-INSERT INTO tbPedido (DataPed, TotalPed, IdCli, NumNF, IdPag, IdEnd) 
+INSERT INTO tbPedido (DataPed, TotalPed, IdUsu, NumNF, IdPag, IdEnd) 
 VALUES ('2024-09-12', 99.90, 1, 1, 1, 1);
 
-INSERT INTO tbPedido (DataPed, TotalPed, IdCli, NumNF, IdPag, IdEnd) 
+INSERT INTO tbPedido (DataPed, TotalPed, IdUsu, NumNF, IdPag, IdEnd) 
 VALUES ('2024-09-12', 299.90, 2, 2, 2, 2);
 
 -- Inserindo itens do pedido
@@ -234,10 +234,10 @@ INSERT INTO tbItemPedido (QtdIte, PrecoIte, IdPed, CodBar)
 VALUES (2, 299.90, 2, 7899876543210);
 
 -- Inserindo favoritos
-INSERT INTO tbFavoritos (CodBar, IdCli) 
+INSERT INTO tbFavoritos (CodBar, IdUsu) 
 VALUES (7891234567891, 1);
 
-INSERT INTO tbFavoritos (CodBar, IdCli) 
+INSERT INTO tbFavoritos (CodBar, IdUsu) 
 VALUES (7899876543210, 2);
 
 

@@ -22,13 +22,13 @@ namespace Site_SmartComfort.Repository
             using (var conexao = new MySqlConnection(_connectionString))
             {
                 conexao.Open();
-                string query = "SELECT IdCli, EmailCli, SenhaCli FROM tbUsuario WHERE " +
-                               "EmailCli = @EmailCli AND SenhaCli = @SenhaCli";
+                string query = "SELECT IdUsu, EmailUsu, SenhaUsu FROM tbUsuario WHERE " +
+                               "EmailUsu = @EmailUsu AND SenhaUsu = @SenhaUsu";
 
                 using (var cmd = new MySqlCommand(query, conexao))
                 {
-                    cmd.Parameters.AddWithValue("@EmailCli", EmailUsu);
-                    cmd.Parameters.AddWithValue("@SenhaCli", SenhaUsu);
+                    cmd.Parameters.AddWithValue("@EmailUsu", EmailUsu);
+                    cmd.Parameters.AddWithValue("@SenhaUsu", SenhaUsu);
 
                     using (var reader = cmd.ExecuteReader())
                     {
@@ -36,9 +36,9 @@ namespace Site_SmartComfort.Repository
                         {
                             var usuario = new Usuario
                             {
-                                IdUsu = reader.GetInt32("IdCli"),
-                                EmailUsu = reader.GetString("EmailCli"),
-                                SenhaUsu = reader.GetString("SenhaCli")
+                                IdUsu = reader.GetInt32("IdUsu"),
+                                EmailUsu = reader.GetString("EmailUsu"),
+                                SenhaUsu = reader.GetString("SenhaUsu")
                             };
                             usuarios.Add(usuario);
                         }
